@@ -35,4 +35,3 @@ git pull
 # Run the bootstrap script - it is safe to run and re-run
 ~/.dotfiles/scripts/bootstrap.sh
 ```
-```
