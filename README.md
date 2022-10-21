@@ -10,7 +10,7 @@ git clone https://github.com/kenmoini/dotfiles.git ~/.dotfiles
 
 # If needed, install things onto a fresh system
 
-# For Mac OS X
+# For Mac OS X - it is safe to run and re-run
 ~/.dotfiles/scripts/brew-setup.sh
 ~/.dotfiles/scripts/mac-os-setup.sh
 
@@ -20,6 +20,19 @@ git clone https://github.com/kenmoini/dotfiles.git ~/.dotfiles
 # Universal
 ~/.dotfiles/scripts/ohmyzsh-setup.sh
 
-# Run the bootstrap script
+# Run the bootstrap script - it is safe to run and re-run
 ~/.dotfiles/scripts/bootstrap.sh
+```
+
+## Staying up to date
+
+```bash
+# Pull down the latest changes
+cd ~/.dotfiles
+
+git pull
+
+# Run the bootstrap script - it is safe to run and re-run
+~/.dotfiles/scripts/bootstrap.sh
+```
 ```

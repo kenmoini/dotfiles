@@ -6,7 +6,7 @@ cd "$(dirname "${BASH_SOURCE}")";
 cd ..
 
 echo "Updating dotfiles from Git...\n";
-#git pull origin main;
+git pull origin main;
 
 source scripts/sync.sh;
 
