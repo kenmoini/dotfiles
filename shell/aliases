@@ -1,0 +1,43 @@
+# kenmoini/dotfiles
+
+#######################################################
+# Shared Aliases
+#######################################################
+
+alias ..="cd ..";
+alias ...="cd ../..";
+alias ....="cd ../../..";
+alias .....="cd ../../../..";
+
+alias c="clear";
+alias g="git";
+
+# URL Encode Strings
+alias urlencode="python -c 'import sys, urllib as ul; print ul.quote_plus(sys.argv[1])'";
+
+# enable aliases to be sudo’ed
+alias sudo='sudo ';
+
+#######################################################
+# Linux only stuff
+#######################################################
+
+if [[ "$(uname)" == "Linux" ]]; then
+
+  # Set aliases for Linux
+
+fi
+
+#######################################################
+# Mac OS X only stuff
+#######################################################
+
+if [[ "$(uname)" == "Darwin" ]]; then
+
+  alias code='open $1 -a "Visual Studio Code"'
+
+  # Lock the screen (when going afk)
+  alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend";
+
+fi
+#######################################################

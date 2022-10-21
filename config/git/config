@@ -1,0 +1,12 @@
+[user]
+	name = Ken Moini
+	email = ken@kenmoini.com
+
+[http]
+	sslVerify = false
+
+[init]
+	defaultBranch = main
+
+[color]
+  ui = auto

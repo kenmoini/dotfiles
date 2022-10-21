@@ -1,0 +1,63 @@
+# kenmoini/dotfiles
+
+Host github.com
+        User git
+        Hostname github.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+
+Host gitlab.cee.redhat.com
+        User git
+        Hostname gitlab.cee.redhat.com
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+
+Host gitlab.kemo.labs
+        User git
+        Hostname gitlab.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+
+Host raza
+        User kemo
+        Hostname raza.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+Host raza.kemo.labs
+        User kemo
+        Hostname raza.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+
+Host endurance
+        User kemo
+        Hostname endurance.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+Host endurance.kemo.labs
+        User kemo
+        Hostname endurance.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+
+Host suki
+        User kemo
+        Hostname suki.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+Host suki.kemo.labs
+        User kemo
+        Hostname suki.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+
+Host great-white
+        User kemo
+        Hostname great-white.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
+Host great-white.kemo.labs
+        User kemo
+        Hostname great-white.kemo.labs
+        PreferredAuthentications publickey
+        IdentityFile ~/.ssh/MasterKemoKey.pem
