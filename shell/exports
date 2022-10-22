@@ -36,7 +36,7 @@ fi
 
 if [[ "$(uname)" == "Darwin" ]]; then
 
-  export GOROOT="/opt/homebrew/bin/go";
+  export GOROOT="/opt/homebrew/opt/go";
 
 fi
 
