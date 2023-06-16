@@ -1,6 +1,7 @@
 # kenmoini/dotfiles
 
 # Check if brew is installed
+echo "Checking for Homebrew..."
 if ! command -v brew &> /dev/null; then
   echo "brew could not be found, installing..."
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -8,9 +9,11 @@ if ! command -v brew &> /dev/null; then
 fi
 
 # Make sure we’re using the latest Homebrew.
+echo "Updating Homebrew..."
 brew update
 
 # Upgrade any already-installed formulae.
+echo "Upgrading Homebrew formulae..."
 brew upgrade
 
 # Save Homebrew’s installed location.
@@ -45,4 +48,5 @@ brew tap homebrew/cask-fonts
 brew install --cask font-hack-nerd-font
 
 # Remove outdated versions from the cellar.
+echo "Cleaning up..."
 brew cleanup
